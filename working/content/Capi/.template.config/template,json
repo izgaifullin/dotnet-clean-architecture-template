@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Ilnur Gaifullin",
+    "classifications": [
+        "Web",
+        "Clean Architecture Project",
+        "API",
+        "Microservice"
+    ],
+    "identity": "izgaifullin.cleanarchitecture.template",
+    "name": "Clean Architecture Project by Ilnur Gaifullin",
+    "description": "Clean Architecture. Author: Ilnur Gaifullin (ilnureva@gmail.com, GitHub: @izgaifullin)",
+    "shortName": "Capi",
+    "sourceName": "Capi",
+    "preferNameDirectory": true,
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    }
+}
