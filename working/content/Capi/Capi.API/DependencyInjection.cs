@@ -2,21 +2,26 @@ namespace Capi.API;
 
 public static class DependencyInjection
 {
-	public static IServiceCollection AddApiServices(this IServiceCollection services, IConfiguration configuration)
-	{
-		services.AddEndpointsApiExplorer();
-		services.AddSwaggerGen();
+    public static IServiceCollection AddApiServices(
+        this IServiceCollection services,
+        IConfiguration configuration
+    )
+    {
+        services.AddEndpointsApiExplorer();
+        services.AddSwaggerGen();
 
-		return services;
-	}
+        return services;
+    }
 
-	public static WebApplication UseApiServices(this WebApplication app)
-	{
-		app.UseSwagger();
-		app.UseSwaggerUI();
+    public static WebApplication UseApiServices(
+        this WebApplication app
+    )
+    {
+        app.UseSwagger();
+        app.UseSwaggerUI();
 
-		app.MapGet("/", () => "Hello World!");
+        app.MapGet("/", () => "Hello World!");
 
-		return app;
-	}
+        return app;
+    }
 }
