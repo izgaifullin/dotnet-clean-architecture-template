@@ -7,9 +7,9 @@
         "API",
         "Microservice"
     ],
-    "identity": "izgaifullin.cleanarchitecture.template",
+    "identity": "soicaoi.cleanarchitecture.template",
     "name": "Clean Architecture Project by Ilnur Gaifullin",
-    "description": "Clean Architecture. Author: Ilnur Gaifullin (ilnureva@gmail.com, GitHub: @izgaifullin)",
+    "description": "Clean Architecture. Author: Ilnur Gaifullin (ilnureva@gmail.com, GitHub: @soicaoi)",
     "shortName": "Capi",
     "sourceName": "Capi",
     "preferNameDirectory": true,

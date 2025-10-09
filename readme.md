@@ -4,7 +4,7 @@
 
 ### Сергей Камянецкий
 
-**👨‍💻 GitHub:** [@izgaifullin](https://github.com/izgaifullin)  
+**👨‍💻 GitHub:** [@soicaoi](https://github.com/soicaoi)  
 **💬 Telegram:** [@soica](https://t.me/soica)
 
 ## 📋 Что создаёт шаблон
@@ -38,9 +38,9 @@ dotnet nuget add source https://nuget.pkg.github.com/<GITHUB_USERNAME>/index.jso
 
 ### Конкретный пример
 ```bash
-dotnet nuget add source https://nuget.pkg.github.com/izgaifullin/index.json \
-  --name github-izgaifullin \
-  --username izgaifullin \
+dotnet nuget add source https://nuget.pkg.github.com/soicaoi/index.json \
+  --name github-soicaoi \
+  --username soicaoi \
   --password PCH2Y60YqR7qg8lfyZcjCP3BQ4yr \
   --store-password-in-clear-text
 ```
@@ -48,7 +48,7 @@ dotnet nuget add source https://nuget.pkg.github.com/izgaifullin/index.json \
 ### 2. Установить шаблон
 
 ```bash
-dotnet new install izgaifullin.cleanarchitecture.template
+dotnet new install soicaoi.cleanarchitecture.template
 ```
 
 ### 3. Использовать шаблон
@@ -71,15 +71,15 @@ dotnet run --project MyMicroservice.API
   ```
 - Обновить шаблон:
   ```bash
-  dotnet new install izgaifullin.cleanarchitecture.template --force
+  dotnet new install soicaoi.cleanarchitecture.template --force
   ```
 - Удалить шаблон:
   ```bash
-  dotnet new uninstall izgaifullin.cleanarchitecture.template
+  dotnet new uninstall soicaoi.cleanarchitecture.template
   ```
 - Удалить источник:
   ```bash
-  dotnet nuget remove source github-izgaifullin
+  dotnet nuget remove source github-soicaoi
   ```
 
 ## 📚 Дополнительные команды
@@ -115,7 +115,7 @@ dotnet nuget list source
 
 ```bash
 # Клонировать репозиторий
-git clone https://github.com/izgaifullin/dotnet-clean-architecture-template.git
+git clone https://github.com/soicaoi/dotnet-clean-architecture-template.git
 cd dotnet-clean-architecture-template
 
 # Установить локально для тестирования
